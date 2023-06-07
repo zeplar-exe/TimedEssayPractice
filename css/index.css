@@ -1,0 +1,55 @@
+html body {
+    width: 100%;
+    height: 100%;
+}
+
+#main-content {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#header {
+    background-color: #d9d8d4;
+}
+
+.timer-input {
+    font-size: 1em;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: textfield;
+    width: 50px;
+}
+
+.timer-input:hover {
+    -moz-appearance: initial;
+}
+
+#prompt-input {
+    margin-left: 17.5%;
+    width: 65%;
+    text-align: center;
+    font-size: 1.35em;
+    border-radius: 10px;
+}
+
+#textarea-container {
+    background-color: #f5f0e1;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+}
+
+#input-textarea {
+    resize: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    font-size: 1.25em;
+    font-family: serif;
+}
