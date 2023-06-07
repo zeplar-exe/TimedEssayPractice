@@ -12,25 +12,27 @@
 </head>
 
 <body>
-    <div id="main-content">
-        <div id="header">
-            <div>
-                <input id="timer-input-hour" class="timer-input" type="number" value="0" min="0"/>
-                <span>:</span>
-                <input id="timer-input-minute" class="timer-input" type="number" value="0" min="0"/>
-                <span>:</span>
-                <input id="timer-input-second" class="timer-input" type="number" value="0" min="0"/>
-                <button id="startStopButton" onclick="toggleWrite()">Start</button><br/>
+    <div id="fill-screen">
+        <div id="main-content">
+            <div id="header">
+                <div>
+                    <input id="timer-input-hour" class="timer-input" type="number" value="0" min="0"/>
+                    <span>:</span>
+                    <input id="timer-input-minute" class="timer-input" type="number" value="0" min="0"/>
+                    <span>:</span>
+                    <input id="timer-input-second" class="timer-input" type="number" value="0" min="0"/>
+                    <button id="startStopButton" onclick="toggleWrite()">Start</button><br/>
+                </div>
+        
+                <input id="prompt-input" type="text"
+                    placeholder="Evaluate and explain the extent to which Eastern European countries...">
+                </input>
+                <button onclick="copyPromptLink()">CPY</button>
             </div>
-    
-            <input id="prompt-input" type="text"
-                placeholder="Evaluate and explain the extent to which Eastern European countries...">
-            </input>
-            <button onclick="copyPromptLink()">CPY</button>
-        </div>
 
-        <div id="textarea-container">
-            <textarea id="input-textarea" disabled="true"></textarea>
+            <div id="textarea-container">
+                <textarea id="input-textarea" disabled="true"></textarea>
+            </div>
         </div>
     </div>
 </body>
